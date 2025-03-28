@@ -51,6 +51,8 @@ nav img {
 .footer{
     padding: 25px;
     margin-top: 25px;
+    text-align: center;
+    background-color: gray;
 }
 .footer a{
     text-decoration: none;
