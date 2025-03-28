@@ -31,6 +31,7 @@ nav img {
 }
 .card img{
     width: 100%;
+    border-radius: 15px;
 }
 .card-contenido{
     padding: 10px;
@@ -47,10 +48,9 @@ nav img {
     display: flex;
     justify-content: center;
 }
-.card .footer{
+.footer{
     padding: 25px;
-    text-align: center;
-    justify-content: center;
+    margin-top: 25px;
 }
 .footer a{
     text-decoration: none;
@@ -61,10 +61,12 @@ h1{
     font-size: 50px;
 }
 .derecha{
-    margin-left: 270px;
+    margin-left: 260px;
     display: flex;
     justify-content: center;
-    padding: 25px;
+    padding: 35px;
+    margin-right: 14px;
+    margin-left: 12px;
 }
 .derecha img{
     width: 650px;
@@ -72,10 +74,39 @@ h1{
 }
 .derecha p{
     font-family: "Rock Salt", cursive; 
+    margin-right: 12px;
+    border-radius: 5px;
     margin-left: 12px;
 }
-.derecha button{
-   font-size: 24px;
+.button{
+   border-radius: 15px;
+   padding: 15px;
    display: flex;
    justify-content: center;
+   margin-top: -150px;
+   border-radius: 25px;
+}
+.button a{
+    text-decoration: none;
+    font-size: 45px; 
+    background-color: lightpink;
+    border-radius: 15px;
+    font-family: "Rock Salt", cursive; 
+}
+.izquierda{
+    margin-right: 270px;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    margin-left: 66px;
+}
+.izquierda img{
+    width: 650px;
+    border-radius: 15px;
+}
+.izquierda p{
+    font-family: "Rock Salt", cursive; 
+    margin-right: 12px;
+    border-radius: 5px;
+    margin-left: 12px;
 }
